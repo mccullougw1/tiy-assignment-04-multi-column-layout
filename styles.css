@@ -1,0 +1,158 @@
+* {
+   box-sizing: border-box;
+}
+img {
+   display: block;
+   width: 100%;
+}
+body {
+   margin: 0;
+}
+
+body {
+   font-family: 'Helvetica-Neue', 'Helvetica', sans-serif;
+   background: #ddd;
+}
+#app-container {
+   max-width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   background: #fff;
+   padding-right: 20px;
+   padding-left: 20px;
+   padding-bottom: 20px;
+   padding-top: 2px;
+}
+.header {
+   font-size: 0;
+   max-width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 0px;
+   padding-bottom: -5px;
+   background: #313131;
+}
+.logo {
+   width: 20%;
+   height: 50px;
+   display: inline-block;
+}
+.label {
+   width: 50%;
+   height: 50px;
+   display: inline-block;
+}
+.link-bar {
+   width: 95%;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   background: #F5F5F5;
+}
+.link-bar button {
+   background: #EBA49E;
+   margin-right: 2px;
+   color: gray;
+
+}
+.column-container {
+   font-size: 0;
+}
+.column-container > * {
+   display: inline-block;
+   font-size: small;
+   vertical-align: top;
+}
+.left-side {
+   width: 75%;
+}
+.left-side hr {
+   border: none;
+   border-top: 1px solid lightgrey;
+}
+.future > * {
+   width: 50%;
+   padding: 10px;
+}
+.art > * {
+   width: 50%;
+   padding: 10px;
+}
+.art-info h6 {
+   padding: 0px;
+   margin-top: 0px;
+   margin-bottom: 3px;
+}
+.right-side {
+   width: 25%;
+   padding-left: 20px;
+   text-align: auto;
+}
+.event-title {
+   width: 100%;
+   margin-bottom: 10px;
+}
+.events {
+   width: 100%;
+   font-size: 0;
+   height: 70px;
+   margin-bottom: 10px;
+}
+.events img {
+   width: 30%;
+}
+.events h5 {
+   color: grey;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   padding-left: 5px:
+}
+.event-1 {
+   width: 70%;
+   font-size: 10px;
+   padding-left: 7px;
+}
+.event-2 {
+   width: 70%;
+   font-size: 10px;
+   padding-left: 7px;
+}
+.event-3 {
+   width: 70%;
+   font-size: 10px;
+   padding-left: 7px;
+}
+.day-time {
+   padding-top: 3px;
+}
+.events hr {
+   width: 100%;
+   border: none;
+   border-top: 1px dotted lightgrey;
+}
+
+.view-all {
+   text-align: right;
+   width: 100%;
+}
+.view-all a {
+   font-size: 10px;
+}
+
+.footer {
+   font-size: 0;
+}
+.footer > * {
+   display: inline-block;
+   font-size: 8px;
+   vertical-align: top;
+   width: 25%;
+   text-align: center;
+}
+.footer span {
+   color: red;
+}
